@@ -1,30 +1,50 @@
 # Diabetes Prediction Project
 
-This project is a beginner-friendly implementation of machine learning and deep learning techniques to predict diabetes. It uses the **Pima Indians Diabetes Database** and implements models like Logistic Regression, Random Forest, and a PyTorch-based Neural Network.
+## 📚 Table of Contents
+
+1. 📜 Project Overview  
+2. 🧩 Features  
+3. 🔑 Inputs  
+4. 🚀 Outputs  
+5. 📊 Models and Performance  
+6. 🛠️ How to Use  
+7. 📂 Dataset
 
 ---
 
-## **1. Project Overview**
-The goal of this project is to classify whether a person is diabetic (**1**) or non-diabetic (**0**) based on medical data. It demonstrates how to preprocess data, train models, and evaluate their performance using standard metrics.
+## 1. 📜 Project Overview
+
+### Overview
+
+The goal of this project is to classify whether a person is diabetic (**1**) or non-diabetic (**0**) based on medical data. This beginner-friendly project demonstrates how to preprocess data, train models, and evaluate their performance using standard metrics.
+
+### Scenario
+
+This project uses the **Pima Indians Diabetes Database** to predict whether a person is diabetic based on features like glucose level, blood pressure, BMI, and more.
 
 ---
 
-## **2. Features**
-### **Data Preprocessing**
+## 2. 🧩 Features
+
+### Data Preprocessing
+
 - Handling missing values
 - Scaling and normalization
 
-### **Feature Selection/Dimensionality Reduction**
+### Feature Selection/Dimensionality Reduction
+
 - Principal Component Analysis (PCA)
 - Correlation matrix
 - Feature importance analysis
 
-### **Models Implemented**
+### Models Implemented
+
 - Logistic Regression
 - Random Forest
 - Neural Network (using PyTorch)
 
-### **Performance Metrics**
+### Performance Metrics
+
 - Accuracy
 - Precision
 - Recall
@@ -32,7 +52,8 @@ The goal of this project is to classify whether a person is diabetic (**1**) or 
 
 ---
 
-## **3. Inputs**
+## 3. 🔑 Inputs
+
 The input to the models consists of the following features derived from the dataset:
 
 1. **Pregnancies**: Number of times the patient has been pregnant.
@@ -46,12 +67,14 @@ The input to the models consists of the following features derived from the data
 
 ---
 
-## **4. Outputs**
-The models predict whether a patient is diabetic (**1**) or not (**0**). Performance metrics are used to evaluate each model's effectiveness.
+## 4. 🚀 Outputs
+
+The models predict whether a patient is diabetic (**1**) or not (**0**). Performance metrics such as accuracy, precision, recall, and F1 score are used to evaluate the models' effectiveness.
 
 ---
 
-## **5. Models and Performance**
+## 5. 📊 Models and Performance
+
 The following models were implemented and compared based on their performance:
 
 | **Model**                | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
@@ -62,30 +85,27 @@ The following models were implemented and compared based on their performance:
 
 ---
 
-## **6. How to Use**
+## 6. 🛠️ How to Use
 
-### **Setup**
-1. Clone the repository:
-   ```bash
-   git clone <repository_url>
+### Setup
+
+1. **Clone the Repository:**
+
    ```
-2. Navigate to the project folder:
-   ```bash
-   cd project_folder
+   git clone https://github.com/souhaila223/maze_robot.git
+
    ```
-3. Install the required dependencies:
-   ```bash
+
+2. Create a virtual environment (recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
+3. Install dependencies:
+   ```
    pip install -r requirements.txt
    ```
-
-### **Run the Project**
-1. Train and evaluate models:
-   ```bash
+4. Run the main script:
+   ```
    python main.py
    ```
-2. Outputs include performance metrics for each model and visualizations like the correlation matrix and PCA.
-
----
-
-## **7. Dataset**
-The dataset used is the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database). Ensure the dataset (`diabetes.csv`) is placed in the `data/` folder.
