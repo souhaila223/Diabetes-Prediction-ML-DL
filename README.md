@@ -92,8 +92,8 @@ The following models were implemented and compared based on their performance:
 1. **Clone the Repository:**
 
    ```
-   git clone https://github.com/souhaila223/maze_robot.git
-
+   git clone https://github.com/souhaila223/Diabetes-Prediction-ML-DL.git
+   cd Diabetes-Prediction-ML-DL
    ```
 
 2. Create a virtual environment (recommended):
