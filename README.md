@@ -109,3 +109,12 @@ The following models were implemented and compared based on their performance:
    ```
    python main.py
    ```
+
+## 7. 📂 Dataset
+The dataset used is the Pima Indians Diabetes Database. Ensure the dataset (diabetes.csv) is placed in the data/ folder.
+The dataset consists of diagnostic measurements for females of Pima Indian heritage, containing the following attributes:
+
+Total instances: 768
+Number of features: 8
+Target variable: 1 (diabetic) or 0 (non-diabetic)
+Missing values: Yes (denoted by zeros in some fields)
