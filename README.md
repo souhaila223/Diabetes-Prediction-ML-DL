@@ -2,12 +2,12 @@
 
 ## 📚 Table of Contents
 
-1. 📜 Project Overview  
-2. 🧩 Features  
-3. 🔑 Inputs  
-4. 🚀 Outputs  
-5. 📊 Models and Performance  
-6. 🛠️ How to Use  
+1. 📜 Project Overview
+2. 🧩 Features
+3. 🔑 Inputs
+4. 🚀 Outputs
+5. 📊 Models and Performance
+6. 🛠️ How to Use
 7. 📂 Dataset
 
 ---
@@ -78,7 +78,7 @@ The models predict whether a patient is diabetic (**1**) or not (**0**). Perform
 The following models were implemented and compared based on their performance:
 
 | **Model**                | **Accuracy** | **Precision** | **Recall** | **F1 Score** |
-|--------------------------|--------------|---------------|------------|--------------|
+| ------------------------ | ------------ | ------------- | ---------- | ------------ |
 | Logistic Regression      | 0.75         | 0.65          | 0.67       | 0.66         |
 | Random Forest            | 0.72         | 0.61          | 0.62       | 0.61         |
 | Neural Network (PyTorch) | 0.77         | 0.67          | 0.69       | 0.68         |
@@ -111,7 +111,8 @@ The following models were implemented and compared based on their performance:
    ```
 
 ## 7. 📂 Dataset
-The dataset used is the Pima Indians Diabetes Database. Ensure the dataset (diabetes.csv) is placed in the data/ folder.
+
+The dataset used is the [Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database). Ensure the dataset (diabetes.csv) is placed in the data/ folder.
 The dataset consists of diagnostic measurements for females of Pima Indian heritage, containing the following attributes:
 
 Total instances: 768
